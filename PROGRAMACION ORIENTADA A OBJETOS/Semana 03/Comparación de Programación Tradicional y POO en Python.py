@@ -1,6 +1,5 @@
 # Programación Tradicional en Python
 # Ejemplo: Registro de temperaturas semanales
-
 # Función para ingresar temperaturas diarias
 def ingresar_temperaturas():
     temperaturas = []
@@ -25,7 +24,6 @@ if __name__ == "__main__":
     main()
 # Programación Orientada a Objetos (POO) en Python
 # Ejemplo: Registro de temperaturas semanales
-
 class ClimaDiario:
     def __init__(self):
         self.temperaturas = []  # Encapsulamos la lista de temperaturas
@@ -43,6 +41,7 @@ class ClimaSemanal(ClimaDiario):
     def mostrar_promedio(self):
         promedio = self.calcular_promedio()
         print(f"El promedio semanal de temperaturas es: {promedio:.2f} °C")
+
 # Programa principal
 def main():
     print("Registro de temperaturas semanales (POO)")
